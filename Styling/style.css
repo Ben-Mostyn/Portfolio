@@ -1,0 +1,76 @@
+/* !Colors */
+/* Charcoal #364652
+Baby Powder #FDFFFC
+Glossy Grape #A88FAC
+Polished pine #70A288 */
+
+@font-face {
+  font-family: Lobster;
+  src: url(/Fonts/Lobster\ 1.4.otf);
+}
+@font-face {
+  font-family: Cocogoose;
+  src: url(/Fonts/Cocogoose\ Pro-trial.ttf);
+}
+* {
+  margin: 0px 0px;
+  padding: 0;
+  clear: both;
+}
+
+body {
+  font-size: 32px;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #364652;
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fdfffc;
+  font-size: 6rem;
+  font-family: Cocogoose;
+  letter-spacing: 3px;
+}
+h2 {
+  color: #fdfffc;
+  font-family: Lobster;
+  font-size: 2.5rem;
+}
+
+.h2-container {
+  /* border: solid red 2px; */
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logos a img {
+  height: 100px;
+}
+.logo {
+  margin: 8%;
+}
+
+.logos {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 20%;
+}
