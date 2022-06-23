@@ -15,23 +15,45 @@ Polished pine #70A288 */
 * {
   margin: 0px 0px;
   padding: 0;
-  clear: both;
 }
 
 body {
   font-size: 32px;
-  box-sizing: border-box;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+
+  /* overflow: hidden; */
   background-color: #364652;
   margin: 0px;
   padding: 0px;
-  clear: both;
 }
-.main-container {
-  height: 80vh;
+
+/* !NavBar Styling */
+nav {
+  box-sizing: border-box;
+  position: absolute;
+  border: red solid 2px;
   width: 100%;
+  font-family: Cocogoose;
+  letter-spacing: 1px;
+  display: flex;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li,
+nav ul a {
+  text-decoration: none;
+  list-style: none;
+  color: #fdfffc;
+}
+
+/* !Main Content Styles */
+.main-container {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,6 +79,7 @@ h2 {
   justify-content: flex-end;
 }
 
+/* !Logo Styles */
 .logos a img {
   height: 100px;
 }
