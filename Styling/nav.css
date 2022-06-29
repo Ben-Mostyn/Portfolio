@@ -117,7 +117,6 @@
     letter-spacing: 1px;
     display: flex;
     height: 100vh;
-    background-color: #2b3741;
   }
   nav ul {
     display: flex;
@@ -198,7 +197,7 @@
     letter-spacing: 1px;
     display: flex;
     height: 100vh;
-    background-color: #2b3741;
+    border: red solid 2px;
   }
   nav ul {
     display: flex;
@@ -279,7 +278,6 @@
     letter-spacing: 1px;
     display: flex;
     height: 100vh;
-    background-color: #2b3741;
   }
   nav ul {
     display: flex;
@@ -362,7 +360,6 @@
     letter-spacing: 1px;
     display: flex;
     height: 100vh;
-    background-color: #2b3741;
   }
   nav ul {
     display: flex;
