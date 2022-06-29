@@ -9,11 +9,22 @@
     <!-- ! CSS -->
     <link rel="stylesheet" href="Styling/style.css" />
     <link rel="stylesheet" href="Styling/nav.css" />
+    <!-- ! Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
-      <ul>
-        <div class="home-container nav-item1">
+      <a id="burger" class="burger-icon" href="#"
+        ><i class="fa-solid fa-bars"></i
+      ></a>
+      <ul id="nav-list" class="nav-inactive">
+        <div class="home-container nav-item">
           <a href="">
             <li>Home</li>
           </a>
@@ -36,7 +47,7 @@
         </div>
       </ul>
     </nav>
-    <header class="main-container">
+    <!-- <header class="main-container">
       <div class="main-heading">
         <h1>Ben Mostyn</h1>
       </div>
@@ -44,22 +55,32 @@
         <h2>Aspiring Front-End Developer!</h2>
       </div>
       <div class="logos">
-        <a class="logo" href="https://github.com/Ben-Mostyn" target="_blank"
-          ><img src="/images/Github.png" alt="Github Logo" />
-        </a>
-        <a
-          class="logo"
-          href="https://www.instagram.com/ben_mostyn/?hl=en"
-          target="_blank"
-          ><img src="/images/instagramcopy.png" alt="Instagram Logo"
-        /></a>
-        <a
-          class="logo"
-          href="https://www.linkedin.com/in/ben-mostyn-693933109/"
-          target="_blank"
-          ><img src="/images/linkedin copy.png" alt="LinkedIn Logo"
-        /></a>
+        <div class="logo-container">
+          <a
+            class="logo icon-cont"
+            href="https://github.com/Ben-Mostyn"
+            target="_blank"
+            ><img src="/images/Github.png" alt="Github Logo" />
+          </a>
+        </div>
+        <div class="logo-container">
+          <a
+            class="logo icon-cont"
+            href="https://www.instagram.com/ben_mostyn/?hl=en"
+            target="_blank"
+            ><img src="/images/instagramcopy.png" alt="Instagram Logo"
+          /></a>
+        </div>
+        <div class="logo-container">
+          <a
+            class="logo icon-cont"
+            href="https://www.linkedin.com/in/ben-mostyn-693933109/"
+            target="_blank"
+            ><img src="/images/linkedin copy.png" alt="LinkedIn Logo"
+          /></a>
+        </div>
       </div>
-    </header>
+    </header> -->
+    <script src="/javascript/main.js"></script>
   </body>
 </html>
