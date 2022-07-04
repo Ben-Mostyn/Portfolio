@@ -693,7 +693,7 @@ body {
     display: none;
   }
 }
-
+/* !Media Query //////////////////////////////////////////////////////////// */
 @media screen and (max-width: 1024px) and (max-height: 978px) {
   .main-container {
     box-sizing: border-box;
@@ -709,14 +709,14 @@ body {
 
   h1 {
     color: #fdfffc;
-    font-size: 1.5rem;
+    font-size: 4rem;
     font-family: Cocogoose;
     letter-spacing: 3px;
   }
   h2 {
     color: #fdfffc;
     font-family: Lobster;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .main-heading {
@@ -728,20 +728,20 @@ body {
     /* border: solid red 2px; */
     width: 80%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-bottom: 5%;
   }
 
   /* !Logo Styles */
   .logos a img {
-    height: 50px;
+    width: 100%;
   }
   .logo-container {
     margin: 20px;
     /* border: solid rgb(255, 255, 255) 2px; */
 
-    height: 15vh;
-    width: 5vw;
+    /* height: 15vh; */
+    width: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -755,15 +755,19 @@ body {
     /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
-    width: 50%;
-    height: 10%;
+    width: 80%;
+    height: 20%;
     /* border: solid rgb(255, 255, 255) 2px; */
+    margin: 20px;
   }
 
   .icon-cont {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .logo {
+    height: 100%;
   }
 
   .logo:hover {
